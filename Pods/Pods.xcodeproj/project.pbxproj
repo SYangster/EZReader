@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		064C43D09A40F4A5E2A11C65FA3EB250 /* Keyword.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD75764522604CC502B80BE5023F2BD0 /* Keyword.swift */; };
+		1A053005F08FE673B7E6E9853EF01FAA /* Reductio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07185EE3218E04CC2D4D571F5C1ACCD4 /* Reductio.swift */; };
+		284FC7B984E18D71404B24175FCE0F5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2C0C9960FE6FFC0F1E559B11DB815EE6 /* TextRank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2B3DCDE3771A0AACC37BF7C372424A /* TextRank.swift */; };
+		36AA7370D247FDE21D1440F3A59EC383 /* Stopwords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689AE524EC6F4D0DC456DCF52593CBC9 /* Stopwords.swift */; };
+		87A12E323738866D58252CF901146B7F /* Array+Combinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9669D505F0B661F1C1BC84390794C3D0 /* Array+Combinations.swift */; };
+		90D72E4404F0AD714DFA323DD165FA32 /* Pods-EZ Reader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8C9726A7809EDE9C20FF73E1652D942 /* Pods-EZ Reader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92C4E80C8C9BB048B6218D83B14A166B /* Reductio.h in Headers */ = {isa = PBXBuildFile; fileRef = 232995E9B76973F018F40B23640666AA /* Reductio.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97CC9D2287E21C0BB9267DE0091E5B94 /* Reductio-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1AE3643A19CF01DAA80BC60B210B0F8 /* Reductio-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA9488397D27AC5EBEDB872AB8AE91A6 /* Pods-EZ Reader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AFCED01C0BB99E1860CAF38B9F6FA4 /* Pods-EZ Reader-dummy.m */; };
+		B1F18F9A028FCB7BA9463F91C32906FC /* Summarizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EDF47ED4A36560683B690FF17E40D8 /* Summarizer.swift */; };
+		B3397A453BCF2270B279C0E7F4C2723A /* Reductio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F6CC23B1AF7FC2B9E55F0542AE289DD /* Reductio-dummy.m */; };
+		C5364B402DE18B71D0EE3494AFD0DCAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CDFDAB214E38C7533CDD3905789C02EF /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9575C64B8C3E81B5F277E9D36C6DABB5 /* Search.swift */; };
+		E76ECD161B44D6AAFE8354371EA1A136 /* Sentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1056824697CBF9C6D30D1F4AB390812 /* Sentence.swift */; };
+		EB9B2DE3CA7FC0729BDE59BFD8004A9A /* Stemmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DC96E9B267A4C68B8B12EEC9775154 /* Stemmer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A125FE847E866B10614E182FA01DBEF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B539C94EDF2438780EDBE58E0E3F956;
+			remoteInfo = Reductio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07185EE3218E04CC2D4D571F5C1ACCD4 /* Reductio.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reductio.swift; path = Source/Reductio.swift; sourceTree = "<group>"; };
+		1D2B3DCDE3771A0AACC37BF7C372424A /* TextRank.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextRank.swift; path = Source/TextRank.swift; sourceTree = "<group>"; };
+		232995E9B76973F018F40B23640666AA /* Reductio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Reductio.h; path = Source/Reductio.h; sourceTree = "<group>"; };
+		278988FB22AAC60BE5AF787CA14E4566 /* Reductio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reductio.framework; path = Reductio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39641D1B4B5007B736C42A9B7041C4F8 /* Pods-EZ Reader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EZ Reader.release.xcconfig"; sourceTree = "<group>"; };
+		3BA5C3339A4F79C076BE075383C3CD8B /* Reductio.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Reductio.modulemap; sourceTree = "<group>"; };
+		3CD06A8F4D1D2E2204230070323C1A02 /* Pods-EZ Reader-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EZ Reader-frameworks.sh"; sourceTree = "<group>"; };
+		4F6CC23B1AF7FC2B9E55F0542AE289DD /* Reductio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reductio-dummy.m"; sourceTree = "<group>"; };
+		602BA191387DC072A72D48AEE92E46A0 /* Reductio-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reductio-prefix.pch"; sourceTree = "<group>"; };
+		60C1F921BECECC3ACA449944E6D0A17A /* Pods_EZ_Reader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EZ_Reader.framework; path = "Pods-EZ Reader.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		689AE524EC6F4D0DC456DCF52593CBC9 /* Stopwords.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stopwords.swift; path = Source/Stopwords.swift; sourceTree = "<group>"; };
+		7031297A07E0A25C8527186313A2F63A /* Pods-EZ Reader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EZ Reader.modulemap"; sourceTree = "<group>"; };
+		78AFCED01C0BB99E1860CAF38B9F6FA4 /* Pods-EZ Reader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EZ Reader-dummy.m"; sourceTree = "<group>"; };
+		8D07B03F42CA40F2FF8CBD6128608A3E /* Pods-EZ Reader-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EZ Reader-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94F6FC4CAFA9480B5CE1CB799C7607D7 /* Pods-EZ Reader-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EZ Reader-acknowledgements.plist"; sourceTree = "<group>"; };
+		9575C64B8C3E81B5F277E9D36C6DABB5 /* Search.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Search.swift; path = Source/Search.swift; sourceTree = "<group>"; };
+		9669D505F0B661F1C1BC84390794C3D0 /* Array+Combinations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Combinations.swift"; path = "Source/Array+Combinations.swift"; sourceTree = "<group>"; };
+		A6622F4AC3AAFB680E7300A03764F17D /* Reductio.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reductio.xcconfig; sourceTree = "<group>"; };
+		A7DC96E9B267A4C68B8B12EEC9775154 /* Stemmer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stemmer.swift; path = Source/Stemmer.swift; sourceTree = "<group>"; };
+		AD75764522604CC502B80BE5023F2BD0 /* Keyword.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keyword.swift; path = Source/Keyword.swift; sourceTree = "<group>"; };
+		B0F8F99949AB0ADABFCADD17440EDEF2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1056824697CBF9C6D30D1F4AB390812 /* Sentence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sentence.swift; path = Source/Sentence.swift; sourceTree = "<group>"; };
+		B1AE3643A19CF01DAA80BC60B210B0F8 /* Reductio-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reductio-umbrella.h"; sourceTree = "<group>"; };
+		C9EDF47ED4A36560683B690FF17E40D8 /* Summarizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Summarizer.swift; path = Source/Summarizer.swift; sourceTree = "<group>"; };
+		F879ECA4C8DAD2C28903A56EDDC132BD /* Pods-EZ Reader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EZ Reader.debug.xcconfig"; sourceTree = "<group>"; };
+		F8C9726A7809EDE9C20FF73E1652D942 /* Pods-EZ Reader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EZ Reader-umbrella.h"; sourceTree = "<group>"; };
+		FF93C3A45924552881EE739290ECCF12 /* Pods-EZ Reader-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EZ Reader-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FFE00B68131FB705B4CB33F9D9CB6BE8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53E8D8318A3390605712389E5ADC4BDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5364B402DE18B71D0EE3494AFD0DCAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79C0834BDE8E3547F11F2CC481AF0C16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				284FC7B984E18D71404B24175FCE0F5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B36CF395CF608887AFCAC30C9237336 /* Pods-EZ Reader */ = {
+			isa = PBXGroup;
+			children = (
+				FFE00B68131FB705B4CB33F9D9CB6BE8 /* Info.plist */,
+				7031297A07E0A25C8527186313A2F63A /* Pods-EZ Reader.modulemap */,
+				FF93C3A45924552881EE739290ECCF12 /* Pods-EZ Reader-acknowledgements.markdown */,
+				94F6FC4CAFA9480B5CE1CB799C7607D7 /* Pods-EZ Reader-acknowledgements.plist */,
+				78AFCED01C0BB99E1860CAF38B9F6FA4 /* Pods-EZ Reader-dummy.m */,
+				3CD06A8F4D1D2E2204230070323C1A02 /* Pods-EZ Reader-frameworks.sh */,
+				8D07B03F42CA40F2FF8CBD6128608A3E /* Pods-EZ Reader-resources.sh */,
+				F8C9726A7809EDE9C20FF73E1652D942 /* Pods-EZ Reader-umbrella.h */,
+				F879ECA4C8DAD2C28903A56EDDC132BD /* Pods-EZ Reader.debug.xcconfig */,
+				39641D1B4B5007B736C42A9B7041C4F8 /* Pods-EZ Reader.release.xcconfig */,
+			);
+			name = "Pods-EZ Reader";
+			path = "Target Support Files/Pods-EZ Reader";
+			sourceTree = "<group>";
+		};
+		2A8FF31BAF023D3300F26E56635A502D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B36CF395CF608887AFCAC30C9237336 /* Pods-EZ Reader */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5CD75B0310F6773E362EE07E9371D380 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0F8F99949AB0ADABFCADD17440EDEF2 /* Info.plist */,
+				3BA5C3339A4F79C076BE075383C3CD8B /* Reductio.modulemap */,
+				A6622F4AC3AAFB680E7300A03764F17D /* Reductio.xcconfig */,
+				4F6CC23B1AF7FC2B9E55F0542AE289DD /* Reductio-dummy.m */,
+				602BA191387DC072A72D48AEE92E46A0 /* Reductio-prefix.pch */,
+				B1AE3643A19CF01DAA80BC60B210B0F8 /* Reductio-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Reductio";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9F22977F040337950BFA00CCB85EFDB9 /* Pods */,
+				C90040FDAAD7252241DAD38CE11D7B46 /* Products */,
+				2A8FF31BAF023D3300F26E56635A502D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9F22977F040337950BFA00CCB85EFDB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8FC02749F64E13D9560A22ADBABC639 /* Reductio */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C90040FDAAD7252241DAD38CE11D7B46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60C1F921BECECC3ACA449944E6D0A17A /* Pods_EZ_Reader.framework */,
+				278988FB22AAC60BE5AF787CA14E4566 /* Reductio.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F8FC02749F64E13D9560A22ADBABC639 /* Reductio */ = {
+			isa = PBXGroup;
+			children = (
+				9669D505F0B661F1C1BC84390794C3D0 /* Array+Combinations.swift */,
+				AD75764522604CC502B80BE5023F2BD0 /* Keyword.swift */,
+				232995E9B76973F018F40B23640666AA /* Reductio.h */,
+				07185EE3218E04CC2D4D571F5C1ACCD4 /* Reductio.swift */,
+				9575C64B8C3E81B5F277E9D36C6DABB5 /* Search.swift */,
+				B1056824697CBF9C6D30D1F4AB390812 /* Sentence.swift */,
+				A7DC96E9B267A4C68B8B12EEC9775154 /* Stemmer.swift */,
+				689AE524EC6F4D0DC456DCF52593CBC9 /* Stopwords.swift */,
+				C9EDF47ED4A36560683B690FF17E40D8 /* Summarizer.swift */,
+				1D2B3DCDE3771A0AACC37BF7C372424A /* TextRank.swift */,
+				5CD75B0310F6773E362EE07E9371D380 /* Support Files */,
+			);
+			name = Reductio;
+			path = Reductio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		089D27653519C9435AE6DC8F36C5421E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97CC9D2287E21C0BB9267DE0091E5B94 /* Reductio-umbrella.h in Headers */,
+				92C4E80C8C9BB048B6218D83B14A166B /* Reductio.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4A7B2F63826C0535D505DCC1067046 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D72E4404F0AD714DFA323DD165FA32 /* Pods-EZ Reader-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B539C94EDF2438780EDBE58E0E3F956 /* Reductio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 742ED4224A3C60B745D3A4223E10C68F /* Build configuration list for PBXNativeTarget "Reductio" */;
+			buildPhases = (
+				F48564674B26590F35050A7C0D9D930F /* Sources */,
+				79C0834BDE8E3547F11F2CC481AF0C16 /* Frameworks */,
+				089D27653519C9435AE6DC8F36C5421E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reductio;
+			productName = Reductio;
+			productReference = 278988FB22AAC60BE5AF787CA14E4566 /* Reductio.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		48EB90848C0FA07BA6D13936CB095D5B /* Pods-EZ Reader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C85ABDCD2930159911D008CE2C4DFE3 /* Build configuration list for PBXNativeTarget "Pods-EZ Reader" */;
+			buildPhases = (
+				E12A5B2C7FFD44314533713DD83D3AED /* Sources */,
+				53E8D8318A3390605712389E5ADC4BDC /* Frameworks */,
+				EE4A7B2F63826C0535D505DCC1067046 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5A327F0E47EA8853A7128E0EAA49662 /* PBXTargetDependency */,
+			);
+			name = "Pods-EZ Reader";
+			productName = "Pods-EZ Reader";
+			productReference = 60C1F921BECECC3ACA449944E6D0A17A /* Pods_EZ_Reader.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C90040FDAAD7252241DAD38CE11D7B46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48EB90848C0FA07BA6D13936CB095D5B /* Pods-EZ Reader */,
+				1B539C94EDF2438780EDBE58E0E3F956 /* Reductio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E12A5B2C7FFD44314533713DD83D3AED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9488397D27AC5EBEDB872AB8AE91A6 /* Pods-EZ Reader-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48564674B26590F35050A7C0D9D930F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87A12E323738866D58252CF901146B7F /* Array+Combinations.swift in Sources */,
+				064C43D09A40F4A5E2A11C65FA3EB250 /* Keyword.swift in Sources */,
+				B3397A453BCF2270B279C0E7F4C2723A /* Reductio-dummy.m in Sources */,
+				1A053005F08FE673B7E6E9853EF01FAA /* Reductio.swift in Sources */,
+				CDFDAB214E38C7533CDD3905789C02EF /* Search.swift in Sources */,
+				E76ECD161B44D6AAFE8354371EA1A136 /* Sentence.swift in Sources */,
+				EB9B2DE3CA7FC0729BDE59BFD8004A9A /* Stemmer.swift in Sources */,
+				36AA7370D247FDE21D1440F3A59EC383 /* Stopwords.swift in Sources */,
+				B1F18F9A028FCB7BA9463F91C32906FC /* Summarizer.swift in Sources */,
+				2C0C9960FE6FFC0F1E559B11DB815EE6 /* TextRank.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5A327F0E47EA8853A7128E0EAA49662 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Reductio;
+			target = 1B539C94EDF2438780EDBE58E0E3F956 /* Reductio */;
+			targetProxy = A125FE847E866B10614E182FA01DBEF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		040173C8C9B22A459FA07AD243B37512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39641D1B4B5007B736C42A9B7041C4F8 /* Pods-EZ Reader.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EZ Reader/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EZ Reader/Pods-EZ Reader.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		500E077B4EC93BBD73ED8D07A40B03A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6622F4AC3AAFB680E7300A03764F17D /* Reductio.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Reductio/Reductio-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Reductio/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Reductio/Reductio.modulemap";
+				PRODUCT_MODULE_NAME = Reductio;
+				PRODUCT_NAME = Reductio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D323C09D82BE76E9E83920CB4885BAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F879ECA4C8DAD2C28903A56EDDC132BD /* Pods-EZ Reader.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EZ Reader/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EZ Reader/Pods-EZ Reader.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D671C9D36585C2C3895F53B33A8B5BBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6622F4AC3AAFB680E7300A03764F17D /* Reductio.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Reductio/Reductio-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Reductio/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Reductio/Reductio.modulemap";
+				PRODUCT_MODULE_NAME = Reductio;
+				PRODUCT_NAME = Reductio;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		742ED4224A3C60B745D3A4223E10C68F /* Build configuration list for PBXNativeTarget "Reductio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				500E077B4EC93BBD73ED8D07A40B03A8 /* Debug */,
+				D671C9D36585C2C3895F53B33A8B5BBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C85ABDCD2930159911D008CE2C4DFE3 /* Build configuration list for PBXNativeTarget "Pods-EZ Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D323C09D82BE76E9E83920CB4885BAED /* Debug */,
+				040173C8C9B22A459FA07AD243B37512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

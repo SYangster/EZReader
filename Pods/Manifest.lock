@@ -1,0 +1,16 @@
+PODS:
+  - Reductio (1.3.0)
+
+DEPENDENCIES:
+  - Reductio
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Reductio
+
+SPEC CHECKSUMS:
+  Reductio: f23936b606be6cd062db77f9499e527fd13100b5
+
+PODFILE CHECKSUM: 417aa935f88bf6832e5b051c0f2b0f945ed1419a
+
+COCOAPODS: 1.5.0

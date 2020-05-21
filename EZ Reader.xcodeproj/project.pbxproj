@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		142D6B21208C4BCF003D8C97 /* launchbackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 142D6B20208C4BCE003D8C97 /* launchbackground.jpg */; };
+		142D6B23208C4BD8003D8C97 /* ninja.png in Resources */ = {isa = PBXBuildFile; fileRef = 142D6B22208C4BD8003D8C97 /* ninja.png */; };
+		14B12BB720F2AD0700D739DC /* stopword.txt in Resources */ = {isa = PBXBuildFile; fileRef = 14B12BB620F2AD0700D739DC /* stopword.txt */; };
+		14BB2A6F20AF5E2B001ED63E /* waterfall.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 14BB2A6E20AF5E2B001ED63E /* waterfall.jpeg */; };
+		14BB2A7120AF5E3F001ED63E /* waterfalltwo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14BB2A7020AF5E3F001ED63E /* waterfalltwo.jpg */; };
+		14BB2A7320AF5E44001ED63E /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 14BB2A7220AF5E44001ED63E /* play.png */; };
+		14BB2A7520AF5E49001ED63E /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 14BB2A7420AF5E49001ED63E /* pause.png */; };
+		14BB2A7720AF5E4F001ED63E /* ninjaactual.png in Resources */ = {isa = PBXBuildFile; fileRef = 14BB2A7620AF5E4F001ED63E /* ninjaactual.png */; };
+		14BB2A7920AF5E54001ED63E /* xbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 14BB2A7820AF5E54001ED63E /* xbutton.png */; };
 		14E76251208BD9260049B576 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E76250208BD9260049B576 /* AppDelegate.swift */; };
 		14E76253208BD9260049B576 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E76252208BD9260049B576 /* ViewController.swift */; };
 		14E76256208BD9260049B576 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E76254208BD9260049B576 /* Main.storyboard */; };
@@ -14,6 +23,7 @@
 		14E7625B208BD9260049B576 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E76259208BD9260049B576 /* LaunchScreen.storyboard */; };
 		14E76266208BD9270049B576 /* EZ_ReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E76265208BD9270049B576 /* EZ_ReaderTests.swift */; };
 		14E76271208BD9270049B576 /* EZ_ReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E76270208BD9270049B576 /* EZ_ReaderUITests.swift */; };
+		A0346733F794FDE5956AA47A /* Pods_EZ_Reader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2167B7CD0D76BA472A6DC8B /* Pods_EZ_Reader.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		142D6B20208C4BCE003D8C97 /* launchbackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = launchbackground.jpg; path = ../../../Downloads/Summarizer/launchbackground.jpg; sourceTree = "<group>"; };
+		142D6B22208C4BD8003D8C97 /* ninja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ninja.png; path = ../../../Downloads/Summarizer/ninja.png; sourceTree = "<group>"; };
+		14B12BB620F2AD0700D739DC /* stopword.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = stopword.txt; path = Assets.xcassets/stopword.txt; sourceTree = "<group>"; };
+		14BB2A6E20AF5E2B001ED63E /* waterfall.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = waterfall.jpeg; sourceTree = SOURCE_ROOT; };
+		14BB2A7020AF5E3F001ED63E /* waterfalltwo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = waterfalltwo.jpg; sourceTree = SOURCE_ROOT; };
+		14BB2A7220AF5E44001ED63E /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = SOURCE_ROOT; };
+		14BB2A7420AF5E49001ED63E /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = SOURCE_ROOT; };
+		14BB2A7620AF5E4F001ED63E /* ninjaactual.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ninjaactual.png; sourceTree = SOURCE_ROOT; };
+		14BB2A7820AF5E54001ED63E /* xbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xbutton.png; sourceTree = SOURCE_ROOT; };
 		14E7624D208BD9260049B576 /* EZ Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EZ Reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14E76250208BD9260049B576 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14E76252208BD9260049B576 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +66,9 @@
 		14E7626C208BD9270049B576 /* EZ ReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EZ ReaderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14E76270208BD9270049B576 /* EZ_ReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EZ_ReaderUITests.swift; sourceTree = "<group>"; };
 		14E76272208BD9270049B576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8365ADBBF69295B721C1D0BF /* Pods-EZ Reader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZ Reader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EZ Reader/Pods-EZ Reader.debug.xcconfig"; sourceTree = "<group>"; };
+		DCA79C992AB191DD7D371E79 /* Pods-EZ Reader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZ Reader.release.xcconfig"; path = "Pods/Target Support Files/Pods-EZ Reader/Pods-EZ Reader.release.xcconfig"; sourceTree = "<group>"; };
+		E2167B7CD0D76BA472A6DC8B /* Pods_EZ_Reader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EZ_Reader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0346733F794FDE5956AA47A /* Pods_EZ_Reader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +104,8 @@
 				14E76264208BD9270049B576 /* EZ ReaderTests */,
 				14E7626F208BD9270049B576 /* EZ ReaderUITests */,
 				14E7624E208BD9260049B576 /* Products */,
+				54D91D28021C9FB4D4E23896 /* Pods */,
+				581D8BD9899DBD6AD0FC9CBA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +122,18 @@
 		14E7624F208BD9260049B576 /* EZ Reader */ = {
 			isa = PBXGroup;
 			children = (
+				14B12BB620F2AD0700D739DC /* stopword.txt */,
+				142D6B20208C4BCE003D8C97 /* launchbackground.jpg */,
+				142D6B22208C4BD8003D8C97 /* ninja.png */,
 				14E76250208BD9260049B576 /* AppDelegate.swift */,
 				14E76252208BD9260049B576 /* ViewController.swift */,
+				14BB2A7620AF5E4F001ED63E /* ninjaactual.png */,
 				14E76254208BD9260049B576 /* Main.storyboard */,
+				14BB2A7220AF5E44001ED63E /* play.png */,
+				14BB2A7420AF5E49001ED63E /* pause.png */,
+				14BB2A7820AF5E54001ED63E /* xbutton.png */,
+				14BB2A7020AF5E3F001ED63E /* waterfalltwo.jpg */,
+				14BB2A6E20AF5E2B001ED63E /* waterfall.jpeg */,
 				14E76257208BD9260049B576 /* Assets.xcassets */,
 				14E76259208BD9260049B576 /* LaunchScreen.storyboard */,
 				14E7625C208BD9260049B576 /* Info.plist */,
@@ -125,6 +159,23 @@
 			path = "EZ ReaderUITests";
 			sourceTree = "<group>";
 		};
+		54D91D28021C9FB4D4E23896 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8365ADBBF69295B721C1D0BF /* Pods-EZ Reader.debug.xcconfig */,
+				DCA79C992AB191DD7D371E79 /* Pods-EZ Reader.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		581D8BD9899DBD6AD0FC9CBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2167B7CD0D76BA472A6DC8B /* Pods_EZ_Reader.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14E76275208BD9270049B576 /* Build configuration list for PBXNativeTarget "EZ Reader" */;
 			buildPhases = (
+				405740777F77CB6205D5C6A5 /* [CP] Check Pods Manifest.lock */,
 				14E76249208BD9260049B576 /* Sources */,
 				14E7624A208BD9260049B576 /* Frameworks */,
 				14E7624B208BD9260049B576 /* Resources */,
+				59CEB4B1423EA576B36C8D0B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,9 +285,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				142D6B23208C4BD8003D8C97 /* ninja.png in Resources */,
+				14BB2A7520AF5E49001ED63E /* pause.png in Resources */,
+				14BB2A7120AF5E3F001ED63E /* waterfalltwo.jpg in Resources */,
 				14E7625B208BD9260049B576 /* LaunchScreen.storyboard in Resources */,
 				14E76258208BD9260049B576 /* Assets.xcassets in Resources */,
+				14BB2A7320AF5E44001ED63E /* play.png in Resources */,
+				14BB2A6F20AF5E2B001ED63E /* waterfall.jpeg in Resources */,
+				14BB2A7720AF5E4F001ED63E /* ninjaactual.png in Resources */,
 				14E76256208BD9260049B576 /* Main.storyboard in Resources */,
+				14B12BB720F2AD0700D739DC /* stopword.txt in Resources */,
+				14BB2A7920AF5E54001ED63E /* xbutton.png in Resources */,
+				142D6B21208C4BCF003D8C97 /* launchbackground.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +315,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		405740777F77CB6205D5C6A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EZ Reader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59CEB4B1423EA576B36C8D0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EZ Reader/Pods-EZ Reader-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Reductio/Reductio.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reductio.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EZ Reader/Pods-EZ Reader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		14E76249208BD9260049B576 /* Sources */ = {
@@ -424,13 +525,14 @@
 		};
 		14E76276208BD9270049B576 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8365ADBBF69295B721C1D0BF /* Pods-EZ Reader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4EJU3A3G88;
+				DEVELOPMENT_TEAM = 67YUU29P3Y;
 				INFOPLIST_FILE = "EZ Reader/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Sean.EZ-Reader";
+				PRODUCT_BUNDLE_IDENTIFIER = "SeanY.EZ-Reader";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -439,13 +541,14 @@
 		};
 		14E76277208BD9270049B576 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCA79C992AB191DD7D371E79 /* Pods-EZ Reader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4EJU3A3G88;
+				DEVELOPMENT_TEAM = 67YUU29P3Y;
 				INFOPLIST_FILE = "EZ Reader/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Sean.EZ-Reader";
+				PRODUCT_BUNDLE_IDENTIFIER = "SeanY.EZ-Reader";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

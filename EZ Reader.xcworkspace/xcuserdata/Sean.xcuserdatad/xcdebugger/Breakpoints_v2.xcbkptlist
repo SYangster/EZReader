@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "09D55B67-994B-4671-A91D-7CFC1E9718E0"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E939C1CB-7EE4-4D25-A747-9CA712DFF7C8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EZ Reader/ViewController.swift"
+            timestampString = "574930358.5354069"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "182"
+            endingLineNumber = "182"
+            landmarkName = "Play(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E939C1CB-7EE4-4D25-A747-9CA712DFF7C8 - 7fd3bbf851964ec5"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EZ_Reader.ViewController.Play(Any) -&gt; ()"
+                  moduleName = "EZ Reader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Sean/dev/EZ%20Reader/EZ%20Reader/ViewController.swift"
+                  timestampString = "546072595.090511"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "169"
+                  endingLineNumber = "169"
+                  offsetFromSymbolStart = "5613">
+               </Location>
+               <Location
+                  uuid = "E939C1CB-7EE4-4D25-A747-9CA712DFF7C8 - 1ddd41d93a52a170"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;Swift.String&gt;) -&gt; () in EZ_Reader.ViewController.Play(Any) -&gt; ()"
+                  moduleName = "EZ Reader"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Sean/dev/EZ%20Reader/EZ%20Reader/ViewController.swift"
+                  timestampString = "546072595.093281"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "169"
+                  endingLineNumber = "169"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F319BE9-898D-4793-AF4F-3722AE19FCFD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EZ Reader/ViewController.swift"
+            timestampString = "574930358.540608"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "Play(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FEC3651C-488C-4EBA-9410-E50C46A656D9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EZ Reader/ViewController.swift"
+            timestampString = "574930358.540947"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
+            landmarkName = "Play(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
